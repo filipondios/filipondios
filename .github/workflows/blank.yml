@@ -28,15 +28,6 @@ jobs:
           template: classic
           base: header, activity, community, repositories, metadata
           config_timezone: Europe/Madrid
-          plugin_chess: yes
-          plugin_chess_animation: {
-  "size": 40,
-  "delay": 3,
-  "duration": 0.6
-}
-
-          plugin_chess_platform: lichess.org
-          plugin_chess_user: .user.Filipondios
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
           plugin_languages: yes
